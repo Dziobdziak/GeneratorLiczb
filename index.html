@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <script src="https://kit.fontawesome.com/600c21d011.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/heart-pulse-solid.svg" type="image/x-icon">
+    <link href="img/heart-pulse-solid.svg" rel="apple-touch-icon">
+    <link rel="stylesheet" href="css/style.css">  
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="boxForPageTitle">
+            <h1>Generator losowych liczb</h1>
+        </div>
+    </header>
+    <main>
+        <div class="firstMainDiv">
+            <div class="notes">
+                <h2>INSTRUKCJA</h2><br>
+                <p><b>1. </b>Proszę podać zakres liczb, z którego będziemy losować i zatwierdzić przyciskiem "Akceptuj tablicę!" <br><b>2. </b> Pojawią się liczby z zakresu, który wybraliśmy. <br> <b>3. </b> W celu wykluczenia liczby, naciskamy ją. <br><b>4. </b> Po wciśnięciu przycisku "Losuj!" zostnie wylosowana dla nas liczba z podanego zakresu. <br> <b>5.</b> Aby zresetować aplikację wystarczy odświeżyć stronę.</p>
+            </div>
+            <div class="boxForHeart">
+                <!--<i class="fa-solid fa-heart-pulse"></i>-->
+            </div>
+        </div>
+        <div class="secondMainDiv">
+            <div class="arrayRange">
+                <div class="boxForRangeInputs">
+                    <div class="numberStartingArray">
+                        <input type="number" class="firstNumberInArray" value="1" name="" id="">
+                        <p>Podaj liczbę zaczynającą tablicę</p>
+                    </div>
+                    <div class="numberEndingArray">
+                        <input type="number" class="lastNumberInArray" name="" id="">
+                        <p>Podaj liczbę kończącą tablicę</p>
+                    </div>
+                </div>
+                <div class="boxForAcceptRangeBtn">
+                    <button class="acceptRangeBtn">Akceptuj tablicę!</button>
+                </div>
+            </div>
+            <div class="yourLuckyNumber">
+                <h1>Twoja wylosowana liczba to:</h1>
+
+            </div>
+            <div class="yourNumberNotes">
+                    <h1 class="luckyNumber"></h1>
+                    <button class="drawNumber">Losuj!</button>
+            </div>
+        </div>
+        <div class="thirdMainDiv">
+
+
+            <!-- <div class="thirdMainDivHeader">
+                <h2>Twoje liczby</h2>
+            </div> -->
+            <fieldset class="tableWithNumbers">
+                <legend> Twoje liczby </legend>
+
+                <!-- <div class="number">1</div> -->
+                
+            </fieldset>
+
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
